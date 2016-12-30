@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>app</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/swiper/3.4.0/swiper.min.css">
+<link rel="stylesheet" href="../../../css/swiper.min.css">
+<script src="https://cdn.jsdelivr.net/swiper/3.4.0/swiper.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="../../../js/swiper/jquery.colorbox.js"></script>
+
+
+		
+<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="main">
+    <div class="main-swiper">
+      <div class="swiper-wrapper">
+      
+		<div class="swiper-slide" data-hash="slide1">
+			  <a class="group1" href="../../../images/works_app/works_10_app.jpg" title="app引导页"><img src="../../../images/three-left.jpg"></a>
+		</div>
+      
+		<div class="swiper-slide" data-hash="slide2">
+			   <a class="group1" href="../../../images/works_08.jpg" title="app引导页"><img src="../../../images/three-height.jpg"></a>
+		</div>
+    
+        <div class="swiper-slide" data-hash="slide3">
+			  <a class="group1" href="../../../images/works_09.jpg" title="app引导页"><img src="../../../images/three-right.jpg"></a>
+		</div>
+      
+		<div class="swiper-slide" data-hash="slide4">
+			   <a class="group1" href="../../../images/works_10.jpg" title="app引导页"><img src="../../../images/three-right.jpg"></a>
+		</div>
+     
+     
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>
+<script src="../../../js/swiper/swiper.min.js"></script>
+
+<script language="javascript"> 
+var mySwiper = new Swiper('.swiper-container',{
+hashnav:true,
+})
+</script>
+
+
+<script language="javascript">
+var mainSwiper = new Swiper('.main-swiper', {
+  hashnav: true,
+ });
+</script>
+
+<!-- This contains the hidden content for inline calls -->
+		<div style='display:none'>
+			<div id='inline_content' style='padding:10px; background:#fff;'>
+			
+			
+			<p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
+			
+		
+			</div>
+		</div>
+</body>
+</html>
