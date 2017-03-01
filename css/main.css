@@ -88,13 +88,18 @@
 	position:absolute;	
 	
 }
+.jingli{
+	text-align: center;
+	width: 500px;
+	display: block;
+	margin: 0 auto;
+}
 .jingli dt{
 	font-family:"Microsoft YaHei";font-weight:lighter;
-	font-size:30px;
+	font-size:22px;
     color:#858585;
-	line-height:1.8em;
+	line-height:2em;
 	position:absolute;
-	left:800px;
 	padding-top:170px
 }
 
@@ -222,7 +227,7 @@
 
 .My-introduction{
 	width:1920px;
-	height:550px;
+	height:570px;
 	background-color:#F7F7F7;
 	margin:0 auto;
 	border-bottom:1px solid #EBEBEB;
@@ -240,27 +245,27 @@
 	text-align:left;
 	padding: 115px 0 25px;
 	font-family:"Microsoft YaHei";font-weight:lighter;
-	font-size:20px;
+	font-size:22px;
     color:#000000;
 	
 }
 .My p{
 	font-family:"Microsoft YaHei";font-weight:lighter;
-	font-size:16px;
+	font-size:18px;
     color:#858585;
 	line-height:2.2em;
 }
 
 .My-Skill{
 	width:1920px;
-	height:550px;
+	height:530px;
 	margin:0 auto;
 	border-bottom:1px solid #EBEBEB;
 }
 
 .Skill{
 	width:1280px;
-	height:550px;
+	height:530px;
     margin:0 auto;
     
 
@@ -270,20 +275,105 @@
 	text-align:left;
 	padding: 115px 0 25px;
 	font-family:"Microsoft YaHei";font-weight:lighter;
-	font-size:20px;
+	font-size:22px;
     color:#000000;
 	
 }
 .Skill p{
 	font-family:"Microsoft YaHei";font-weight:lighter;
-	font-size:16px;
+	font-size:18px;
     color:#858585;
 	line-height:2.2em;
 }
 
 
+.My-experience{
+	width:1920px;
+	height:690px;
+	background-color:#F7F7F7;
+	margin:0 auto;
+	border-bottom:1px solid #EBEBEB;
+}
 
+.experience{
+	width:1280px;
+	height:600px;
+    margin:0 auto;
+    
 
+	
+}
+.experience h1{
+	text-align:left;
+	padding: 115px 0 5px;
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:22px;
+    color:#000000;
+	
+}
+.experience h2{
+	text-align:left;
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:18px;
+    color:#858585;
+}
+.experience h3{
+	text-align:left;
+	padding: 5px 0 25px;
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:16px;
+    color:#858585;
+}
+.experience p{
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:18px;
+    color:#858585;
+	line-height:2.2em;
+}
+
+.My-experience1{
+	width:1920px;
+	height:940px;
+	margin:0 auto;
+	border-bottom:1px solid #EBEBEB;
+}
+
+.experience1{
+	width:1280px;
+	height:600px;
+    margin:0 auto;
+    
+
+	
+}
+.experience1 h1{
+	text-align:left;
+	padding: 115px 0 5px;
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:22px;
+    color:#000000;
+	
+}
+.experience1 h2{
+	text-align:left;
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:18px;
+    color:#858585;
+}
+.experience1 h3{
+	text-align:left;
+	padding: 5px 0 25px;
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:16px;
+    color:#858585;
+}
+.experience1 p{
+	text-indent:35px;
+	font-family:"Microsoft YaHei";font-weight:lighter;
+	font-size:18px;
+    color:#858585;
+	line-height:2.2em;
+}
 
 
 
